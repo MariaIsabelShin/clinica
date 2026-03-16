@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Vitalis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><div class="icon-logo">+</div><span>Vitalis<b>Med</b></span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#especialistas">Especialistas</a></li>
+                <li><a href="#citas" class="btn-cita">Pedir Cita</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Tu salud es nuestra prioridad</h1>
+            <p>Tecnología de vanguardia y especialistas comprometidos.</p>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section-container">
+        <div class="nosotros-flex">
+            <div class="nosotros-img"><img src="img/nosotros.png" alt="Nosotros"></div>
+            <div class="nosotros-text">
+                <h2>Nuestra Historia</h2>
+                <p>Referentes en salud integral desde 1995.</p>
+                <h3>Misión</h3>
+                <p>Brindar atención médica con calidez humana y excelencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section-container bg-light">
+        <h2 class="text-center">Servicios</h2>
+        <div class="servicios-grid">
+            <div class="service-card"><img src="img/urgencias.png"><h3>Urgencias</h3></div>
+            <div class="service-card"><img src="img/laboratorio.png"><h3>Laboratorio</h3></div>
+            <div class="service-card"><img src="img/rayosx.png"><h3>Rayos X</h3></div>
+            <div class="service-card"><img src="img/ginecologia.png"><h3>Ginecología</h3></div>
+            <div class="service-card"><img src="img/odontologia.png"><h3>Odontología</h3></div>
+            <div class="service-card"><img src="img/rehabilitacion.png"><h3>Rehabilitación</h3></div>
+        </div>
+        <div class="video-container">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="especialistas" class="section-container">
+        <h2 class="text-center">Especialistas</h2>
+        <div id="especialistas-list" class="especialistas-container"></div>
+    </section>
+
+    <section id="citas" class="section-container bg-light">
+        <div class="citas-wrapper">
+            <form id="form-cita">
+                <h2>Agendar Cita</h2>
+                <input type="text" id="nombre" placeholder="Nombre Completo" required>
+                <input type="text" id="cedula" placeholder="Cédula" required>
+                <input type="email" id="correo" placeholder="Correo" required>
+                <select id="especialidad-select" required>
+                    <option value="">Especialidad</option>
+                    <option value="Cardiología">Cardiología</option>
+                    <option value="Pediatría">Pediatría</option>
+                    <option value="Dermatología">Dermatología</option>
+                </select>
+                <input type="date" id="fecha" required>
+                <button type="submit">Confirmar</button>
+            </form>
+            <div class="consultar-citas">
+                <h2>Mis Citas</h2>
+                <div id="lista-citas"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div><h4>Contacto</h4><p>Av. Salud 123</p></div>
+            <div class="social-links">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">IG</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

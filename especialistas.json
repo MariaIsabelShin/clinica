@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "Dra. Elena Rodríguez",
+        "especialidad": "Cardiología",
+        "foto": "img/medico1.png",
+        "horario": "Lun - Vie: 08:00 - 14:00",
+        "consultorio": "Piso 2 - Mod 201"
+    },
+    {
+        "nombre": "Dr. Marcos Téllez",
+        "especialidad": "Pediatría",
+        "foto": "img/medico2.png",
+        "horario": "Lun - Jue: 10:00 - 18:00",
+        "consultorio": "Piso 1 - Mod 105"
+    },
+    {
+        "nombre": "Dra. Sofía Alarcón",
+        "especialidad": "Dermatología",
+        "foto": "img/medico3.png",
+        "horario": "Mié - Sáb: 09:00 - 15:00",
+        "consultorio": "Piso 3 - Mod 312"
+    }
+]
